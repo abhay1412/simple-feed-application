@@ -12,7 +12,7 @@
         <nav class="navbar" role="navigation" aria-label="main navigation">
           <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start pl-2">
-              <a href="/" class="navbar-item">Home</a>
+              <a href="{% url 'index' %}" class="navbar-item">Home</a>
               {% if user.is_authenticated %}
                 <a href="{% url 'reports' %}" class="navbar-item">Reports</a>
               {% endif %}
