@@ -33,7 +33,7 @@ DEBUG = False
 # DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = ['https://simple-feed-application.herokuapp.com/', ]
+ALLOWED_HOSTS = ['https://simple-feed-application.herokuapp.com', ]
 AUTH_USER_MODEL = 'feedapp.User'
 
 # Application definition
